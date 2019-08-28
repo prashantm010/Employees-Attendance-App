@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="NAME:"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="70dp"
+                android:background="@drawable/border"
+                android:hint=" ENTER NAME"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="ID:"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="118dp"
+                android:layout_marginStart="118dp"
+                android:background="@drawable/border"
+                android:hint=" ENTER ID"
+                android:inputType="textEmailAddress"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="PIN:"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="101dp"
+                android:layout_marginStart="101dp"
+                android:background="@drawable/border"
+                android:hint=" ENTER PIN"
+                android:inputType="numberPassword"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="POST:"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="78dp"
+                android:layout_marginStart="78dp"
+                android:background="@drawable/border"
+                android:hint=" ENTER POST"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:text="CONTACT NUMBER:"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:hint=" ENTER PHONE NO"
+                android:inputType="phone"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="GENDER:"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/border"
+                android:hint=" ENTER Gender"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="DOB:"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginStart="95dp"
+                android:background="@drawable/border"
+                android:hint=" ENTER DATE"
+                android:inputType="date"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="ADDRESS:"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginStart="35dp"
+                android:background="@drawable/border"
+                android:hint=" ENTER ADDRESS"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="#000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="90dp"
+                android:layout_height="68dp"
+                android:text="BLOOD GROUP:"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="63dp"
+                android:layout_marginStart="63dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:hint=" ENTER BLOOD GRP"
+                android:inputType="text|textCapCharacters"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
